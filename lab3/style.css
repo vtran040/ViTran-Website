@@ -1,0 +1,62 @@
+body{
+    background: url(bg.png);
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    min-width: 500px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+a, a:visited {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0066FF;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hoveer, a:active {
+    background-color: #6699FF;
+}
+.Main .drop {
+    display: none;
+}
+.Main li {
+    position: relative;
+}
+.Main li.drop-button:hover .drop {
+    display: block;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+}
+.Text{
+    position: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    display: inline-block;
+    text-align: left;
+    max-width: 450px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.Picture{
+    position: right;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+}
